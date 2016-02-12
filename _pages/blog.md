@@ -13,7 +13,7 @@ permalink: /blog/
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div>{{ post.summary }}</div>
+          <summary class="post-meta">{{ post.excerpt }}</summary>
         </h2>
       </li>
     {% endfor %}
