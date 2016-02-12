@@ -1,10 +1,10 @@
 ---
 layout: default
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Recent Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -13,8 +13,10 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div>{{ post.summary }}</div>
         </h2>
       </li>
     {% endfor %}
   </ul>
+
 </div>
