@@ -9,7 +9,7 @@
 title: Brad Knowles
 description: The technology blog of Brad Knowles, Senior Solutions Developer with Leading EDJE in Columbus, Ohio.
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: pretty
+permalink: /blog/:categories/:year/:month/:day/:title/
 url: "http://bradknowles.com"
 twitter_username: Brad_Knowles
 github_username:  BradKnowles
