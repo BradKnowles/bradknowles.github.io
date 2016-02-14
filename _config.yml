@@ -7,7 +7,7 @@
 
 # Site settings
 title: Brad Knowles
-description: The technology blog of Brad Knowles, Senior Solutions Developer with Leading EDJE in Columbus, Ohio.
+description: A blog on the art and practice software development.
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /blog/:categories/:year/:month/:day/:title/
 url: "http://bradknowles.com"
