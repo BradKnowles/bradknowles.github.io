@@ -16,8 +16,10 @@ github_username:  BradKnowles
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
 
 # Include directory for non-post pages.
 include: ['_pages']
+
+# System Settings
+timezone: America/New_York
+
