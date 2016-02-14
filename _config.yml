@@ -5,21 +5,29 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# System Settings
+timezone: America/New_York
+include: ['_pages'] # Include directory for non-post pages.
+
+# Build settings
+markdown: kramdown
+
 # Site settings
 title: Brad Knowles
 description: A blog on the art and practice of software development.
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /blog/:title/
 url: "http://bradknowles.com"
+
+# Social Media IDs
 twitter_username: Brad_Knowles
 github_username:  BradKnowles
 
-# Build settings
-markdown: kramdown
-
-# Include directory for non-post pages.
-include: ['_pages']
-
-# System Settings
-timezone: America/New_York
-
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Brad Knowles"
