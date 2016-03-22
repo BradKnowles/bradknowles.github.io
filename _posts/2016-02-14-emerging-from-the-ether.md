@@ -2,6 +2,7 @@
 layout: post
 title: Emerging from the Ether
 author: Brad Knowles
+date: 2016-02-14 08:00:00 -0500
 long_date_format: '%B %d, %Y'
 excerpt: I am a dark matter developer...no more.
 categories: blog
