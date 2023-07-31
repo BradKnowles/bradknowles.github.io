@@ -1,1 +1,15 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>git - Tag - Brad Knowles' Blog</title><link>http://bradknowles.com/tags/git/</link><description>git - Tag - Brad Knowles' Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This content © 2023 by Brad Knowles is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.</copyright><lastBuildDate>Mon, 31 Jul 2023 16:45:06 -0400</lastBuildDate><atom:link href="http://bradknowles.com/tags/git/" rel="self" type="application/rss+xml"/><item><title>Test Post</title><link>http://bradknowles.com/blog/test-post/</link><pubDate>Mon, 31 Jul 2023 16:45:06 -0400</pubDate><author>Brad Knowles</author><guid>http://bradknowles.com/blog/test-post/</guid><description>It&amp;rsquo;s extremely easy to falsify author information with Git and make it appear as if someone else made the commit. This could lead to malicious code making it&amp;rsquo;s way into your repo with legit looking author info. Using GnuPG (GPG) developers can sign, and others can verify, commits are truly from the right person. Read on to find out how&amp;hellip;</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - Tag - Brad Knowles&#39; Blog</title>
+        <link>http://bradknowles.com/tags/git/</link>
+        <description>git - Tag - Brad Knowles&#39; Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This content © 2023 by Brad Knowles is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.</copyright><lastBuildDate>Mon, 31 Jul 2023 16:45:06 -0400</lastBuildDate><atom:link href="http://bradknowles.com/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Test Post</title>
+    <link>http://bradknowles.com/blog/test-post/</link>
+    <pubDate>Mon, 31 Jul 2023 16:45:06 -0400</pubDate>
+    <author>Brad Knowles</author>
+    <guid>http://bradknowles.com/blog/test-post/</guid>
+    <description><![CDATA[It&rsquo;s extremely easy to falsify author information with Git and make it appear as if someone else made the commit. This could lead to malicious code making it&rsquo;s way into your repo with legit looking author info.  Using GnuPG (GPG) developers can sign, and others can verify, commits are truly from the right person.  Read on to find out how&hellip;]]></description>
+</item>
+</channel>
+</rss>
